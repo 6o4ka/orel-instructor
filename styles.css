@@ -306,12 +306,3 @@ border-radius: 20px;
     border-top: 1px solid #1f2329;;
 }
 
-
-@media (max-width: 320px) {
-    section {
-        margin-left: 5%;
-        margin-right: 3%;
-        
-    }
-}
-
