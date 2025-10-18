@@ -130,7 +130,7 @@ margin-bottom: 27px;
 .main-information {
 font-size: 14px;
 color: var(--muted);
-margin-left: 15%;
+margin-left: 5%;
 margin-top: 150px;
 }
 
@@ -167,7 +167,7 @@ header {
 }
 
 .services {
-    margin-left: 15%;
+    margin-left: 30px;
 }
 
 
@@ -204,8 +204,8 @@ font-size: 14px;
 }
 
 .contact-section {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .contact {
@@ -251,8 +251,8 @@ color: var(--text);
     border-radius: 16px;
     padding: 20px;
     margin-top: 20px;
-    max-width: 418px;
-    
+    justify-self: center;
+    max-width: 350px;
 
 
 }
@@ -260,6 +260,7 @@ color: var(--text);
     width: 375px;
     height: 375px;
     border-radius: 6px;
+    max-width: 100%;
 }
 
 
@@ -289,7 +290,7 @@ border-radius: 20px;
 }
 
 .reviews-header {
-    margin-left: 15%;
+    margin-left: 30px;
 }
 
 .big-width {
@@ -304,3 +305,15 @@ border-radius: 20px;
     border-top: 1px solid #1f2329;;
 }
 
+
+@media (max-width: 320px) {
+    .location-card__image {
+        height: 250px;
+    }
+}
+
+@media (max-width: 350px) {
+    .location-card__image {
+        height: 280px;
+    }
+}
