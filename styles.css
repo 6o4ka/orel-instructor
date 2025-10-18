@@ -42,7 +42,7 @@ z-index: 100;
 backdrop-filter: blur(8px);
 margin-bottom: 150px;
 }
-.left-header {
+.text-container__header {
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -53,9 +53,7 @@ height: 60px;
 border-radius: 4px;
 margin-right: 10px;
 }
-.text-container__header {
-width: 50px;
-}
+
 .right-header {
 display: flex;
 align-items: center;
